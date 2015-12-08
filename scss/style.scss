@@ -118,3 +118,70 @@ img {
  * General styles
  */
 
+body{
+    background-color: beige;
+}
+
+#container{
+    margin: 0 auto;
+}
+
+#etsyContainer {
+    width: 1400px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    border-top: 5px dashed grey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#etsyItem {
+    cursor: pointer;
+    width: 310px;
+    height: 300px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    padding-top: 30px;
+    font-size: .75rem;
+    border: 3px solid grey;
+    border-radius: 25%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#etsyMainImage{
+    width: 135px;
+}
+
+#searchBar {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#searchBar:hover {
+    cursor:pointer;
+}
+
+#searchBar:focus {
+    outline: none;
+
+}
+
+#singleEtsy {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+    padding-top: 200px;
+}
+
+#etsySummary > p {
+    font-family: Palatino;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-top: 2px solid grey;
+}
